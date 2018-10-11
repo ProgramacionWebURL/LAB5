@@ -32,7 +32,6 @@ router.post('/V1/Person/', function(req, res, next) {
     ,birth:req.body.birth
     ,mail:req.body.mail
     ,country:req.body.country
-    ,img:req.body.img
   }
     people.people.push(person);
     res.status(201).send(person);
