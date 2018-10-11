@@ -2,11 +2,11 @@ var express = require('express');
 var router = express.Router();
 
 var people = {"people":[
-  {id: 0,name:"One plus",lastname:"6",birth:"64",mail:"4000",country:"9"},
-  {id: 1,name:"Nokia 8",lastname:"6",birth:"512",mail:"5000",country:"8"},
-  {id: 2,name:"Iphone X",lastname:"5.8",birth:"512",mail:"4000",country:"2"},
-  {id: 3,name:"Samsung S9",lastname:"6",birth:"1TB",mail:"4000",country:"2"},
-  {id: 4,name:"Huawei P20",lastname:"6",birth:"64GB",mail:"2800",country:"8"}]
+  {id: 0,name:"Kevin",lastname:"Fernandez",birth:"12/10/1994",mail:"kfernan@gmail.com",country:"GUA"},
+  {id: 1,name:"Pedro",lastname:"Lopez",birth:"06/12/1996",mail:"lopez.pedro@gmail.com",country:"MEX"},
+  {id: 2,name:"Samuel",lastname:"Ruiz",birth:"23/01/1998",mail: "samrui@hotmail.com",country:"USA"},
+  {id: 3,name:"Sofia",lastname:"Ponce",birth:"08/05/1994",mail:"soponce@gmail.com",country:"GUA"},
+  {id: 4,name:"Jaqui",lastname:"Fernandez",birth:"09/04/200",mail:"jafer@gmail.com",country:"USA"}]
 };
 
 router.get('/', function(req, res, next) {
